@@ -1,0 +1,85 @@
+.todo{
+    border: 1px solid lightgray;
+    padding: 20px 10px 20px;
+    display: flex;
+    width: 600px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px -9px rgba(0, 0, 0, 0.5);
+    
+    /* background-color: #895EC4; */
+    
+}
+.todo > form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+.todo form label > input{
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    /* this will take width of its parent item  */
+}
+.todo form label > input:focus{
+   outline-width: 0;
+   border: 2px solid #895EC4;
+}
+.todo_bottom{
+    position: relative;    
+}
+
+.todo .todo_date{
+    display: flex;
+    flex-direction: column;
+}
+.todo_date{
+    position: absolute;
+    top: 60px;
+}
+.todo .todo_bottom{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo_bottom .todo_button {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.todo_bottom label > input {
+    height: 35px ;
+}
+.todo_bottom > Button{
+    color: white;
+    font-size: 15px;
+    text-transform: lowercase;
+    opacity: 0.8;
+    background-color: #895EC4;
+    border-radius: 5px;
+    height: 30px;
+}
+.todo_button > Button{
+    color: white;
+    font-size: 15px;
+    text-transform: lowercase;
+    opacity: 0.8;
+    background-color: #895EC4;
+    border-radius: 5px;
+    height: 30px;
+}
+.todo_bottom > Button:hover{
+    background-color: #895EC4;
+    opacity: 1;
+}
+.todo_button > button:hover{
+    background-color: #895EC4;
+    opacity: 1;
+}

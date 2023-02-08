@@ -1,3 +1,4 @@
+
 .profile{
     margin: 20px 0px 20px;
     width: 317px;
@@ -11,6 +12,7 @@
     padding: 10px;
     border: 1px solid #EEEEEE;
     border-radius: 10px;
+    z-index: 100;
 
 }
 .profile > h4 {
@@ -32,29 +34,46 @@
     font-size: medium;
     font-weight: 400;
 }
-.profile_data > button{
-
+/* .profile_data > Button{
+    
     padding: 5px;
     cursor: pointer;
-    border: lightgray;
-    width: 100px; 
-}
+    border: 1px solid lightgray;
+    width: 100px;
+    border-radius: 5px; 
+    font-size: 10px;
+    font-weight: 600;
+} */
 .profile_data .name{
     width: 100px;
     padding: 5px;
     border-radius: 5px;
+    border: 1px solid lightgray;
 }
 .profile_data .name:focus{
-    outline-color: lightskyblue;
+    outline-color: #EF4B88;
 }
+.profile_data form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 10px;
 
-.profile > button{
+}
+.profile  Button{
     width: 100px;
     cursor: pointer;
     padding: 5px;
-    border-radius: 10px;
-    border: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
     color: white;
-    background-color: #FF5D5D;
-
+    background-color: #895EC4;
+    opacity: 0.8;
+    font-size: 10px;
 } 
+.profile button:hover{
+    background-color: #895EC4;
+    opacity: 1;
+    color: white;
+}

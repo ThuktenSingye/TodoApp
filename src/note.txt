@@ -1,0 +1,6 @@
+useState() Hook is widely used in React applications to re-render the 
+components on state changes. However, there are scenarios where we need to track 
+state changes without re-rendering the components.
+
+But, if we use the useRef() Hook, we can track the state changes without causing
+ component re-renderings.
